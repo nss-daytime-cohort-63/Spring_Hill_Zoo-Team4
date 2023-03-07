@@ -1,4 +1,4 @@
-import { getExhibits } from "./database.js"
+import { exhibit } from "./Exhibit.js"
 
 
 /* 
@@ -10,9 +10,8 @@ import { getExhibits } from "./database.js"
 */
 
 
-const parentHTMLElement = document.querySelector(".container")
-
-// parentHTMLElement.innerHTML = catalog(harvest)
+const parentHTMLElement = document.querySelector("#container")
+parentHTMLElement.innerHTML = exhibit()
 
 /* 
   Module Responsibility:
