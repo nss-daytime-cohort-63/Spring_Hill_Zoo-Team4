@@ -11,21 +11,24 @@ const database = {
       name: "Phil",
       species: "Snake",
       food: "Popcorn",
-      exhibitId: 1
+      exhibitId: 1,
+      images: "snakeExhibit.jpg"
     },
     {
       id: 2,
       name: "Josephine",
       species: "African Elephant",
       food: "Funnel Cakes",
-      exhibitId: 3
+      exhibitId: 3,
+      images: "elephantExhibit.jpg"
     },
     {
       id: 3,
       name: "Larry",
       species: "Lion",
       food: "Candy Corn",
-      exhibitId: 2
+      exhibitId: 2,
+      images: "lionExhibit.jpg"
     },
   ],
   exhibits: [
@@ -49,12 +52,14 @@ const database = {
     {
       id: 1,
       name: "Just Dippin' Dots",
-      food: "Dippin Dots"
+      food: "Dippin Dots",
+      images: "dippinDots.jpg"
     },
     {
       id: 2,
       name: "A Little Bit Chowder Now",
-      food: "Clam Chowder"
+      food: "Clam Chowder",
+      images: "ClamChowder.jpg"
     }
   ]
 }
