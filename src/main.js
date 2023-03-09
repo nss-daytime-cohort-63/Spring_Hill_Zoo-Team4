@@ -1,5 +1,5 @@
 import { exhibit } from "./Exhibit.js"
-
+import { concessionList } from './concessions.js'
 
 /* 
   Goals of project:
@@ -18,4 +18,5 @@ parentHTMLElement.innerHTML = exhibit()
     1. Update the DOM with *all* of the HTML
     2. Defer creation of specific sections to other modules
 */
-
+const parentHTMLElement = document.querySelector("concessions")
+parentHTMLElement.innerHTML = concessionList()
