@@ -53,8 +53,23 @@ const database = {
     },
     {
       id: 2,
-      name: "A Little Bit Chowder Now",
-      food: "Clam Chowder"
+      name: "johnnys cosmic dogs",
+      food: "Hottt Dog"
+    },
+    {
+      id: 3,
+      name: "Zoo animal crackers",
+      food: "crackers"
+    },
+    {
+      id: 4, 
+      name: "Monkey Bananas",
+      food: "Banana"
+    },
+    {
+      id: 5,
+      name: "Sloth Slurpee",
+      food: "Blue Slurpee"
     }
   ]
 }
