@@ -1,4 +1,5 @@
-import "./styles.css";
+import { exhibit } from "./Exhibit.js"
+
 
 /* 
   Goals of project:
@@ -8,6 +9,9 @@ import "./styles.css";
     4. Main header at top with "Welcome to Spring Hill Zoo"
 */
 
+
+const parentHTMLElement = document.querySelector("#container")
+parentHTMLElement.innerHTML = exhibit()
 
 /* 
   Module Responsibility:
